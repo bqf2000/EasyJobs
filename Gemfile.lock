@@ -117,6 +117,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  compass (>= 0.12.2)
   compass-rails
   haml
   haml-rails

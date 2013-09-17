@@ -1,14 +1,14 @@
 !!!5
 %html
   %head
-    %title Easyjobs
-    = stylesheet_link_tag 'screen.css', :media => 'screen, projection'
-    = stylesheet_link_tag 'print.css', :media => 'print'
-    /[if lt IE 8]
-      = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
-    = stylesheet_link_tag 'application.css', :media => 'screen, projection'
-    = javascript_include_tag :application
+    %title Easy Jobs!
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application'
     = csrf_meta_tag
 
   %body
-  = yield
+    #wrapper
+      #header
+      %h1#logo
+        Easy Jobs!
+      = yield
